@@ -1,6 +1,6 @@
 #!/bin/bash -xe
-export PROJECT_ID=jenkins-gke-`date +%s`
-export ZONE=us-east1-d
+export PROJECT_ID=crack-node-287504
+export ZONE=us-west3-c
 echo y | gcloud components update
 echo y | gcloud components install kubectl
 #echo y | gcloud components install alpha
